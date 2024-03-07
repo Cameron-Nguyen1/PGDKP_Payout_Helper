@@ -55,5 +55,6 @@ eligible = bind_rows(Damage_Tanks,Heals) %>% mutate("Total.Payout"=floor(Bonus+B
 pframe = eligible[,c("Name","Role","Base.Pay","Bonus","Total.Payout")]
 write.csv(pframe,file="PayoutSheet.csv")
 
-#Try running this command:
-    #Rscript docuts.r --Dsheet=Dam.csv --Hsheet=Heal1.csv --Pot=21550
+#-> Download example files like these from warcraftlogs.com
+#--->Try running the command below:
+    #Rscript PGDKP.r --Dsheet=DamageFile.csv --Hsheet=HealFile.csv --Pot=21550
