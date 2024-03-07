@@ -15,3 +15,5 @@ At the end of the raid, all members are expected to be paid out in accordance to
 ## Performance Metric Flaws
 The performance metrics which this payout structure is based on is flawed. It's accepted that Damage and healing alone do not entirely comprise a player's contribution to their raid.
 To address this, arbitrary bonuses are recorded so that the user can address any payout inequalities perceived.
+
+### This is intended for use with raid logs from [Warcraftlogs.com](https://vanilla.warcraftlogs.com/). This is intended to be used in Blizzard's World of Warcraft Classic Era game.
